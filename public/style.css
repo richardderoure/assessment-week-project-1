@@ -1,0 +1,90 @@
+main{
+  display: flex;
+  flex-direction: column;
+  margin: 20% 0 20% 0;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.form-container{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchInput{
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-button{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
+
+
+/* 
+body{
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+
+display:flex;
+text-align:center;
+
+}
+.form-container{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#searchInput{
+    display: flex;
+    flex-direction: column;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    
+}
+
+.form-button{
+    display: flex;
+    flex-direction: row;
+} */
