@@ -6,7 +6,10 @@
     <title>Variable</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,9 +23,9 @@
         </div>
         <div class="form-container">
             <form name="form" class="form">
-                <input type="text" id="searchInput">
+                <input type="text" id="searchInput" name="searchInput">
                 <div class="button-container">
-                    <input type="submit" id="search" value="Search" class="form-button">
+                    <a href="" name="submitLink" id="submitLink"><input type="submit" id="search" value="submit" class="form-button"></a>
                     <input type="submit" id="lucky" value="I'm feeling lucky!" class="form-button">
                 </div>
             </form>
